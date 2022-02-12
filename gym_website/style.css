@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(./img/workout-1420741_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+    
+}
+
+.left {
+    /* border: 2px solid blueviolet; */
+    display: inline-block;
+    left: 50px;
+    top: -5px;
+    position: absolute;
+}
+
+.left img {
+    width: 75px;
+    filter: invert(100%);
+    padding-left: 10px;
+}
+
+.left div {
+    text-align: center;
+    margin-left: 5px;
+    line-height: -1px;
+    font-size: 19px;
+}
+
+.mid {
+    /* border: 2px solid rgb(232, 5, 141); */
+    display: block;
+    width: 38%;
+    margin: 6px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 18px;
+    /* border: 2px solid rgb(4, 244, 12); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    display: inline-block;
+    padding: 10px 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(185, 174, 174);
+    text-decoration: underline;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+.container{
+    border: 2px solid  rgba(214, 205, 255, 0.952);
+    margin: 106px 80px;
+    padding: 20px 80px 40px 80px;
+    border-radius: 28px;
+    width: 33%;
+    box-shadow: -5px 10px 10px 4px rgba(47, 151, 134, 0.5);
+}
+
+.form-group input{
+    text-align: center;
+display: block;
+width: 450px;
+padding: 0px;
+border: 2px solid black;
+margin: 11px auto;
+font-size: 24px;
+border-radius: 10px;
+font-family: 'Baloo Bhaijaan 2', cursive;
+box-shadow: -5px 10px 10px 4px rgba(21, 62, 78, 0.5);
+}
+
+.container button{
+    width: 23%;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+}
